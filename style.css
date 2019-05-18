@@ -1,0 +1,23 @@
+.turntable {
+    width: 531px;
+    height: 531px;
+    margin: 50px auto;
+    transform: rotate(-52deg);
+    background: url(images/turntable.png) no-repeat left top;
+}
+
+.pointer {
+    width: 174px;
+    height: 228px;
+    position: relative;
+    background: url(images/pointer.png) no-repeat left top;
+    margin: 0 auto;
+    z-index: 999;
+    cursor: pointer;
+    top: -448.5px;
+    transform-origin: 87px 133px;
+}
+
+.spin {
+    animation: spin 4s cubic-bezier(0.785, 0.135, 0.15, 0.86) forwards;
+}
